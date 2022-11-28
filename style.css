@@ -79,6 +79,11 @@ li{
 	border-right: 1px solid white;
 }
 
+ol{
+	list-style-type: number
+}
+
+
 table, tr, td {
 	background-color: pink;
 	color: white;

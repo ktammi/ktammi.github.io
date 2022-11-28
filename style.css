@@ -40,11 +40,7 @@ h1, h2 {
 	text-transform: 
 }
 
-p {
-	text-indent:
-}
-
-ul {
+.nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -79,10 +75,10 @@ li{
 	border-right: 1px solid white;
 }
 
-ol{
-	list-style-type: number
+.herkut{
+	list-style-type: circle;
 }
-
+	
 
 table, tr, td {
 	background-color: pink;

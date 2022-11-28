@@ -1,6 +1,6 @@
 
 * {
-	font-family: "Arial";
+	font-family: "Calibri";
 }
 
 .invisible {
@@ -16,48 +16,79 @@
 .flex-item {
 	padding: 20px;
 	margin: 10px;
-	background-color: white;
-	height: 300px;
+	background-color: #F5F5F5;
+	height: 400px;
 	min-width: 100px;
 	max-width: 400px:
 }
 
 .flex-table {
 	padding: 20px;
-	background-color: white;
+	background-color: #F5F5F5;
 	height: 300px;
 	min-width: 500px;
 	max-width: 500px:
 }
 
 body {
-	background-image: url("img/pattern.JPG");
+	
 }
 
-h1, h2, h3 {
-	font-family: "Impact";
-	text-shadow: 2px 2px #BBB;
-	text-transform: uppercase;
+h1, h2 {
+	font-family: "Calibri";
+	text-shadow:
+	text-transform: 
 }
 
 p {
-	text-indent: 10px;
+	text-indent:
 }
 
-.punainen {
-	color: #AA0000
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #C0C0C0;
+	overflow: hidden;
+	border: 1px solid white;
+	height: 40px;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white; 
+}
+
+li a:hover{
+	background-color: #A9A9A9;
+}
+
+.active{
+	background-color: #000000;
+	color: white;
+}
+
+li{
+	border-right: 1px solid white;
 }
 
 table, tr, td {
-	background-color: #5599AA;
-	color: #FFF;
+	background-color: pink;
+	color: white;
 }
 
 table {
 	border-spacing: 0px;
 	border-collapse: collapse;
 	margin: 20px;
-	border: 3px solid #114499;
+	border: 3px solid white;
 }
 
 td {

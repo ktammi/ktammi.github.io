@@ -1,60 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<style>
+	body{
+		background-image: url("img/pattern.JPG"); 
+	}
+	
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<link rel="stylesheet" href = "style.css">
 		<title>Koira tuli taloon</title>
 	</head>
 	<body>
-		<script src="menu.js"></script>
-		<center>
-			<button onclick="show('kurssit')">Näytä kurssit</button>
-			<button onclick="show('ohjeet')">Näytä ohjeet</button>
-		</center>
+	<ul class="nav">
+		<li class="active"><a href="index.html">Koira tuli taloon</li>
+		<li><a href="puuhat.html">Lempipuuhani</a></li>
+		<li><a href="hoito.html">Näin minua hoidetaan</a></li>
+		<li><a href="tietoa.html">Hyödyllistä tietoa</a></li>
+	</ul>
 		<div class="flex-container">
 			<div class="flex-item">
-				<h1 id="otsikko" class="otsikot">Tervetuloa kurssille</h1>
-				<h2 class="otsikot">Mikä on johdatus verkkojulkaisemiseen?</h2>
-				<p>Kurssilla saat <b>verkkoviestijän tarvitsemat digitaidot</b> ja paljon muuta. <a href="https://sites.uwasa.fi/digiope/category/opintojaksot/viek2029/analytiikka/" target="_blank">Ota yhteyttä</a> <i>Sebastian Laitilaan</i>. <br>
-				Hänet löytää huoneesta <span class="punainen">F241</span>.
+				<h1 id="otsikko" class="otsikot">Koira tuli taloon</h1>
+				<p>Tällä sivustolla pääset tutustumaan minuun ja touhuihini. Tässä sinulle innokasta hännänheilutusta. <br> Kiva, kun tulit käymään!
+				</p>
+				<h2 class="otsikot">Hau, olen Bono!</h2>
+				<p>Synnyin huhtikuussa 2021 ja minut haettiin kotiin kesäkuussa 8 viikon ikäisenä. Ihmislaumaani kuuluu isä, äiti ja kaksi koululaista. Asumme talossa, jossa minulla on oma sohva nukkumiseen, toisessa huoneessa patja työpäiviä varten, valtava ruokasäkki (joskus kaksikin) ja herkkukaappi siellä, missä syödään. Meillä on piha ja talon takana metsä.
+				</p>
+				<p>Minulla on kolme veljeä ja yksi sisko. Kuvassa olemme viisiviikkoisia.
 				</p>
 			</div>
 			<div class = "flex-table">
-					<img src="img/omakuva.jpg" height="260px">
+			<center>
+					<img src="img/omakuva.jpg" height="300px" alt="Viisi koiranpentua ruokailee">
+			</center>
 			</div>
 			<div class = "flex-item" id="kurssit">
-				<table>
-					<tr>
-						<td>Syksy</td>
-						<td>Kevät</td>
-					</tr>
-					<tr>
-						<td>
-							<ul>
-								<li>Johdatus verkkojulkaisemiseen</li>
-								<li>Pelit ja pelikulttuurit</li>
-								<li>Viestinnän palvelumuotoilu</li>
-								<li>Digitaaliset työkalut</li>
-							</ul>
-						
-						</td>
-						<td>
-							<ul>
-								<li>Digitaalisen markkinointiviestinnän projekti</li>
-								<li>Johdatus verkkojulkaisemiseen</li>
-								<li>Digitaaliset työkalut</li>
-								<li>Pelisuunnittelu</li>
-							</ul>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class = "flex-item" id="ohjeet">
-				<h2 id="tarvittavat"> Tarvittavat digitaidot ennen kursseille osallistumista</h2>
-				<ol>
-					<li>Tiedostojen avaaminen ja tallentaminen</li>
-					<li>Tiedostojen pakkaamnen ja zip-paketin avaaminen</li>
-					<li>Tiedonhakutaidot</li>
-				</ol>
+				<p>Nyt olen jo 1,5-vuotias. Pienenä olin villi ja pentueen isoin. Minulla on edelleen valtava ruokahalu ja painan nyt 40 kg. Olen siis melko roteva ja voimakas.
+				</p>
+				<p>Olen lempeä ja aktiivinen. En koskaan hauku toisia karvakuonoja ja haluan moikata kaikkia vastaantulijoita.
+				</p>
+				<p>Osaan tulla luokse. Annan tassua, sekä oikeaa että vasenta ja molempia yhtä aikaa. ”Kierrä” ja ”pyöri” menevät välillä sekaisin, kun haluaisin vaan sen palkan. Niinpä teen joskus molemmat ihan varmuuden vuoksi. Menen myös maahan ja osaan huilata. ”Peti”, ”paikka” ja ”jätä” onnistuvat myös.
+				</p>	
+				<p>Ai niin, onhan minulla kissasiskokin. Siedämme toisiamme, se siitä. 
+				</p>				
 			</div>
 		</div>
 	</body>

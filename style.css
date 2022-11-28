@@ -15,15 +15,15 @@
 	background-color: #F5F5F5;
 	height: 400px;
 	min-width: 100px;
-	max-width: 400px:
+	max-width: 600px;
 }
 
 .flex-table {
 	padding: 20px;
 	background-color: #F5F5F5;
 	height: 300px;
-	min-width: 500px;
-	max-width: 500px:
+	min-width: 100px;
+	max-width: 600px;
 }
 
 body {
@@ -32,8 +32,6 @@ body {
 
 h1, h2 {
 	font-family: "Calibri";
-	text-shadow:
-	text-transform: 
 }
 
 .nav {
@@ -98,8 +96,4 @@ td {
 	padding-right: 20px;
 	padding-top: 3px;
 	padding-bottom: 3px;
-}
-
-img {
-	position: centered;
 }

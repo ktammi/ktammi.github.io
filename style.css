@@ -74,15 +74,11 @@ li a:hover{
 li{
 	border-right: 1px solid white;
 }
-
-.herkut{
-	list-style-type: circle;
-}
 	
-
 table, tr, td {
-	background-color: pink;
+	background-color: #ADD8E6;
 	color: white;
+	width: 360px; 
 }
 
 table {
